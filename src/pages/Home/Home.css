@@ -1,0 +1,75 @@
+#root .home{
+  min-height: calc(100vh - 60px);
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0 6vw;
+}
+.home section{
+  flex: 1;
+}
+
+/* Left */
+.left-home{
+  flex-direction: column;
+  text-align: center;
+  font-style: italic;
+}
+.left-home h1{
+  font-weight: 100;
+  font-size: 2.2rem;
+  margin: 15px 0;
+}
+.left-home p{
+  display: block;
+  width: 70%;
+  min-width: 280px;
+  font-size: 1.4rem;
+  font-family: secondSource;
+  margin: 15px 0;
+}
+
+/* Right */
+.right-home img{
+  display: block;
+  object-fit: cover;
+  width: 280px;
+  height: 280px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px){
+  /* Sections */
+  .home section{
+    flex: none;
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  /* Left */
+  .left-home h1{
+    font-size: 1.9rem;
+  }
+  .left-home p{
+    font-size: 1.2rem;
+  }
+
+  /* Right */
+  .right-home img{
+    width: 240px;
+    height: 240px;
+  }
+}
+@media screen and (max-width: 320px){
+  /* Left */
+  .left-home h1{
+    font-size: 1.7rem;
+  }
+  .left-home p{
+    padding: 0 20px;
+  }
+  /* Right */
+  .right-home img{
+    width: 230px;
+    height: 230px;
+  }
+}
