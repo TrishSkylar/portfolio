@@ -8,9 +8,21 @@ import {
 /* Configuration */
 import routingConfiguration from './routingConfiguration';
 
-export default () => {
+/* Components */
+import Header from '../components/Header';
+
+export default props => {
+  const {
+    data,
+    translate
+  } = props;
+
   return (
     <Router>
+      <Header
+        data={ data.header }
+        translate={ translate }
+      />
       <Switch>
         { routingConfiguration.map((route, index) => (
           <Route

@@ -1,4 +1,12 @@
 {
+  "header":{
+    "nav": {
+      "option1": "Inicio",
+      "option2": "Trabajo",
+      "option3": "Contacto",
+      "option4": "Sobre mí"
+    }
+  },
   "home": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
