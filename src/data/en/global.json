@@ -7,7 +7,7 @@
       "option4": "About me"
     }
   },
-  "home": {
+  "/": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "work": {
@@ -16,7 +16,7 @@
   "contact": {
 
   },
-  "aboutMe": {
+  "about-me": {
 
   }
 }

@@ -1,8 +1,15 @@
 import React from 'react';
 import './Home.css';
 
-export default () => {
+export default props => {
+  const { data } = props;
+  console.log(data);
   return (
-    <h1>Home...</h1>
+    <main className="home">
+      <section className="left-home">
+      </section>
+      <section className="right-home">
+      </section>
+    </main>
   );
 }

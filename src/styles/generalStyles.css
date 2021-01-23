@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: firstSource, 'Arial';
+  color: var(--main-light);
 }
 body{
   background: var(--main-dark);

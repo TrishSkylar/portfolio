@@ -9,7 +9,6 @@
 }
 .header a,
 .header span{
-  color: var(--main-light);
   font-size: 1.2rem;
   cursor: pointer;
 }
