@@ -1,0 +1,10 @@
+@font-face{
+  src: url(../assets/fonts/Dustismo/Dustismo.ttf);
+  font-family: firstSource;
+  font-display: swap;
+}
+@font-face{
+  src: url(../assets/fonts/LiberationSerif/LiberationSerif.ttf);
+  font-family: secondSource;
+  font-display: swap;
+}
