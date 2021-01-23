@@ -53,10 +53,6 @@
   .header{
     background: transparent;
   }
-  .header a,
-  .header span{
-    font-size: 1rem;
-  }
   .header .icon-arrow-right{
     transition: all 0.5s;
     transform: rotate(180deg);
@@ -87,8 +83,7 @@
     align-items: center;
     width: 100%;
     padding: 0 1rem 0 2rem;
-    height: 40px;
-    font-weight: bold;
+    height: 50px;
   }
   .menu-link:hover{
     border: none;

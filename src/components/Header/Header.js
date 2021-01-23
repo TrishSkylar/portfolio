@@ -13,16 +13,19 @@ export default props => {
     translate
   } = props;
 
+  const toggleMenu = e => {
+    document.getElementById('menu').classList.toggle('showMenu');
+    const btnMenu = document.getElementById('btn-menu');
+    btnMenu.classList.toggle('icon-menu');
+    btnMenu.classList.toggle('icon-arrow-right');
+  }
+
   return (
     <header className="header flex-container">
       <span
         id="btn-menu"
         className="icon-menu flex-container"
-        onClick={ e => {
-          document.getElementById('menu').classList.toggle('showMenu');
-          e.currentTarget.classList.toggle('icon-menu');
-          e.currentTarget.classList.toggle('icon-arrow-right');
-        } }
+        onClick={ toggleMenu }
       />
       <nav className="nav">
         <ul id="menu" className="menu flex-container">
@@ -30,6 +33,7 @@ export default props => {
             <Link
               className="menu-link"
               to="/"
+              onClick={ toggleMenu }
             >
               { data.nav.option1 }
             </Link>
@@ -38,6 +42,7 @@ export default props => {
             <Link
               className="menu-link"
               to="/work"
+              onClick={ toggleMenu }
             >
               { data.nav.option2 }
             </Link>
@@ -46,6 +51,7 @@ export default props => {
             <Link
               className="menu-link"
               to="/contact"
+              onClick={ toggleMenu }
             >
               { data.nav.option3 }
             </Link>
@@ -54,6 +60,7 @@ export default props => {
             <Link
               className="menu-link"
               to="/about-me"
+              onClick={ toggleMenu }
             >
               { data.nav.option4 }
             </Link>
