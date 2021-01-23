@@ -36,8 +36,7 @@ module.exports = merge(webpackCommon, {
   plugins: [
     new DefinePlugin({
       'process.env': {
-        APP_NAME: JSON.stringify(process.env.APP_NAME),
-        API_HOST: JSON.stringify(process.env.API_HOST)
+        APP_NAME: JSON.stringify(process.env.APP_NAME)
       }
     }),
     new MiniCssExtractPlugin({
