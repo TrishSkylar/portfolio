@@ -1,7 +1,8 @@
 import React from 'react';
+import Routing from './routes';
 
 export default () => {
   return (
-    <h1>App...</h1>
+    <Routing/>
   );
 }
