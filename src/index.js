@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
+/* Icons */
+import './assets/icons/style.css';
+
 /* Styles */
 import './styles/index.css';
 

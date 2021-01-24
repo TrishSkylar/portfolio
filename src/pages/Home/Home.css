@@ -1,5 +1,4 @@
 #root .home{
-  min-height: calc(100vh - 60px);
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0 6vw;

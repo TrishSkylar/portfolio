@@ -1,8 +1,5 @@
 import React, { useEffect, useState } from 'react';
 
-/* Header */
-import Header from './components/Header';
-
 /* Routes */
 import Routing from './routes';
 

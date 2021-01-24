@@ -6,7 +6,7 @@
 
   /* Light */
   --main-light: rgb(255, 255, 255);
-  --second-light: rgb(212, 0, 0);
+  --second-light: rgba(0, 0, 0, 0.644);
   --third-light: rgb(105, 105, 105);
 
   /* Others */

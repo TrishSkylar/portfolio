@@ -1,0 +1,49 @@
+.project{
+  min-width: 280px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 5px;
+}
+.project-title{
+  font-size: 1.4rem;
+  text-align: center;
+}
+.project-description{
+  display: block;
+  width: 400px;
+  min-width: 280px;
+  margin: 20px auto;
+  font-family: secondSource;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+.project img{
+  display: block;
+  position: relative;
+  width: 350px;
+  object-position: center;
+  object-fit: cover;
+  margin: 20px auto;
+  border: 1px solid var(--main-light);
+  border-radius: 5px;
+}
+.project-buttons-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 10px;
+}
+.project-button{
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.project-button span{
+  margin-right: 10px;
+}
+.project-button:hover, .project-button:hover span{
+  color: var(--third-light);
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px){
+
+}

@@ -10,13 +10,22 @@
   "/": {
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
-  "work": {
-    
+  "/work": {
+    "projects": [
+      {
+        "title": "Project X",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "title": "Project X",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
   },
-  "contact": {
+  "/contact": {
 
   },
-  "about-me": {
+  "/about-me": {
 
   }
 }

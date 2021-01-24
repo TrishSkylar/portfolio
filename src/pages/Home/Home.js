@@ -6,7 +6,7 @@ import './Home.css';
 export default props => {
   const { data } = props;
   return (
-    <main className="home flex-container">
+    <main className="home page flex-container">
       <section className="left-home flex-container">
         <h1>{ data.title }</h1>
         <p>{ data.description }</p>

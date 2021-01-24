@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-/* Icons */
-import '../../assets/icons/style.css';
-
 /* Styles */
 import './Header.css';
 

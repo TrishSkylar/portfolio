@@ -1,0 +1,26 @@
+.work{
+  min-width: 300px;
+  flex-wrap: wrap;
+  padding: 0 6vw;
+  height: max-content;
+}
+.work-information{
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  margin-top: auto;
+}
+.work-information h1{
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin: 20px 0;
+}
+.work-information p{
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px){
+  
+}
