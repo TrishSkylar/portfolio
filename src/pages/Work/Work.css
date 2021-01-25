@@ -1,14 +1,15 @@
 .work{
   min-width: 300px;
   flex-wrap: wrap;
-  padding: 0 6vw 6vw;
+  padding: 0 6vw;
   height: max-content;
+  align-content: center;
 }
 .work-information{
   width: 100%;
   text-align: center;
   font-style: italic;
-  margin-top: auto;
+  margin-bottom: 20px;
 }
 .work-information h1{
   font-size: 1.6rem;

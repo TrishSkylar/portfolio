@@ -12,7 +12,7 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "/work": {
-    "title": "My Projects",
+    "title": "Mis Proyectos",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "projects": [
       {
@@ -34,7 +34,27 @@
     }
   },
   "/contact": {
-
+    "title": "Ponerse en contacto",
+    "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "form": {
+      "names": {
+        "label": "Nombres:",
+        "placeholder": "Escribe tus nombres"
+      },
+      "email": {
+        "label": "Email:",
+        "placeholder": "Escribe tu email"
+      },
+      "subject": {
+        "label": "Asunto:",
+        "placeholder": "Asunto"
+      },
+      "message": {
+        "label": "Mensaje:",
+        "placeholder": "Escribe tu mensaje"
+      },
+      "button": "Enviar"
+    }
   },
   "/about-me": {
 

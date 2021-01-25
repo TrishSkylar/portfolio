@@ -1,0 +1,34 @@
+#root .contact{
+  flex-direction: column;
+}
+
+.contact-information{
+  text-align: center;
+  font-style: italic;
+}
+.contact-information h1{
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin: 20px 0;
+}
+.contact-information p{
+  display: block;
+  min-width: 270px;
+  width: 80%;
+  max-width: 1000px;
+  font-size: 1.2rem;
+  font-family: secondSource;
+  margin: 20px auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px){
+  .contact-information h1{
+    font-size: 1.4rem;
+    margin: 15px 0;
+  }
+  .contact-information p{
+    font-size: 1rem;
+    margin: 15px auto;
+  } 
+}

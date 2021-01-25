@@ -34,7 +34,27 @@
     }
   },
   "/contact": {
-
+    "title": "Get in touch",
+    "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "form": {
+      "names": {
+        "label": "Names:",
+        "placeholder": "Enter your names"
+      },
+      "email": {
+        "label": "Email:",
+        "placeholder": "Enter your email"
+      },
+      "subject": {
+        "label": "Subject:",
+        "placeholder": "Subject"
+      },
+      "message": {
+        "label": "Message:",
+        "placeholder": "Enter your message"
+      },
+      "button": "Send"
+    }
   },
   "/about-me": {
 
