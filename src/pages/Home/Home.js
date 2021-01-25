@@ -1,5 +1,4 @@
 import React from 'react';
-import { APP_NAME } from '../../utils/constants';
 import BannerImage from '../../assets/webp/banner.webp';
 import './Home.css';
 
@@ -13,7 +12,7 @@ export default props => {
       </section>
       <section className="right-home flex-container">
         <img
-          alt={ `${APP_NAME} banner` }
+          alt={ `${data.appName} banner` }
           src={ BannerImage }
           width="280"
           height="280"

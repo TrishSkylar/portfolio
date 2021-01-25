@@ -34,9 +34,7 @@ export default props => {
             exact={ route.exact }
             path={ route.path }
           >
-            <route.page
-              data={ data[`${route.path}`] }
-            />
+            <route.page data={ data[`${route.path}`] }/>
           </Route>
         )) }
       </Switch>
