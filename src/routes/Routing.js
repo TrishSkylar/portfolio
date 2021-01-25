@@ -10,6 +10,7 @@ import routingConfiguration from './routingConfiguration';
 
 /* Components */
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default props => {
   const {
@@ -38,6 +39,9 @@ export default props => {
           </Route>
         )) }
       </Switch>
+      <Footer
+        data={ data.footer }
+      />
     </Router>
   );
 }

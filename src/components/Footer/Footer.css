@@ -1,0 +1,18 @@
+.footer{
+  height: 60px;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 580px){
+  .footer{
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 480px){
+  .footer{
+    padding: 0 2rem;
+  }
+}

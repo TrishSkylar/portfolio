@@ -19,7 +19,7 @@ export default props => {
   }, [ currentSlide ]);
 
   return (
-    <div className="image-slider-container page flex-container">
+    <div className="image-slider-container flex-container">
       <div className="image-slider-controller flex-container">
         <span
           onClick={ () => prevSlide() }
