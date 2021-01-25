@@ -1,0 +1,186 @@
+.about-me{
+  flex-direction: column;
+}
+
+/* About me description */
+.about-me-description{
+  min-width: 768px;
+  width: 100%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.about-me-description img{
+  object-fit: cover;
+  object-position: center;
+  width: 400px;
+  padding: 0 5rem;
+}
+.about-me-description p{
+  display: block;
+  min-width: 270px;
+  width: 600px;
+  padding: 0 5rem;
+  font-size: 1.2rem;
+  font-family: secondSource;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Information */
+.about-me-information{
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+.about-me-information > div{
+  width: 50%;
+  margin: 4rem 0;
+}
+
+/* Languages */
+.languages-container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 4rem;
+}
+.languages-container p{
+  margin: 1rem 4rem;
+  font-size: 1.5rem;
+}
+
+/* Tools */
+.tools-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 8rem;
+}
+.tools-container p{
+  margin: 1rem 0;
+  text-align: center;
+}
+.tool-value{
+  width: 50%;
+  font-size: 1.2rem;
+  font-style: italic;
+}
+.tools-title{
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+/* Core Skills */
+.core-skills-container{
+  display: flex;
+  flex-direction: column;
+}
+.core-skills-title{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.coreSkill-value{
+  font-style: italic;
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+
+/* Qualities */
+.qualities-container{
+  display: flex;
+  flex-direction: column;
+}
+.qualities-container p{
+  width: 100%;
+}
+.qualities-title{
+  font-size: 1.6rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  padding-left: 11rem;
+}
+.quality-value{
+  margin: 0.5rem 0;
+  padding-left: 9rem;
+}
+.quality-value::before{
+  content: '-';
+  margin-right: 10px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px){
+  /* Information */
+  .about-me-information > div{
+    width: 100%;
+    margin: 2rem 0;
+  }
+
+  /* Qualities */
+  .qualities-container p{
+    text-align: center;
+    padding-left: 0;
+  }
+  .quality-value::before{
+    content: '';
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px){
+  /* About me description */
+  .about-me-description{
+    min-width: 100%;
+    flex-direction: column;
+  }
+  .about-me-description img{
+    width: 240px;
+    padding: 0;
+  }
+  .about-me-description p{
+    min-width: 270px;
+    width: 100%;
+    padding: 0 3rem;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 580px){
+
+  /* Tools */
+  .tools-title{
+    font-size: 1.2rem;
+  }
+  .tool-value{
+    font-size: 1rem;
+  }
+
+  /* Core Skills */
+  .core-skills-title{
+    font-size: 1.2rem;
+  }
+  .coreSkill-value{
+    font-size: 1rem;
+  }
+
+  /* Qualities */
+  .qualities-title{
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 480px){
+  /* Languages */
+  .languages-container p{
+    font-size: 1.3rem;
+  }
+
+  /* Tools */
+  .tool-value{
+    width: 100%;
+  }
+
+  /* Qualities */
+  .qualities-container{
+    padding: 0 2rem;
+  }
+}

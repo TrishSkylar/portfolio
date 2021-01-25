@@ -57,6 +57,48 @@
     }
   },
   "/about-me": {
-
+    "information": "Lorem ipsum dolor sit  elit, sed do eiusmod tempor incididunt ut labore et dolore magna amet, consectetur, sed do eiusmod tempor incididunt ut labore magna aliqua Lorem ipsum dolor sit consectetur adipiscing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "languages": [
+      "Javascript",
+      "PHP",
+      "Go",
+      "Python",
+      "C++",
+      "TypeScript",
+      "SQL"
+    ],
+    "tools": {
+      "title": "Tools",
+      "values": [
+        "Git",
+        "Bootstrap",
+        "Postman",
+        "Studio 3T",
+        "VSCode",
+        "LucidChart"
+      ]
+    },
+    "coreSkills": {
+      "title": "Core Skills",
+      "values": [
+        "API development",
+        "Development in Node.js",
+        "Development in React",
+        "Development in Laravel", 
+        "Responsive Design"
+      ]
+    },
+    "qualities": {
+      "title": "Qualities",
+      "values": [
+        "Problem resolution",
+        "Logical and methodological approach",
+        "Adaptability",
+        "Teamwork",
+        "Creativity",
+        "Technical knowledge",
+        "Knowledge of type of business activities"
+      ]
+    }
   }
 }
