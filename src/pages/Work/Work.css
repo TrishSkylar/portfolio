@@ -16,11 +16,27 @@
   margin: 20px 0;
 }
 .work-information p{
-  margin: 20px 0;
+  display: block;
+  margin: 20px auto;
   font-size: 1.2rem;
 }
 
 /* Responsive */
 @media screen and (max-width: 1024px){
-  
+  .work-information p{
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 768px){
+  .work-information h1{
+    font-size: 1.4rem;
+  }
+  .work-information p{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px){
+  .work-information p{
+    font-size: 0.9rem;
+  }
 }

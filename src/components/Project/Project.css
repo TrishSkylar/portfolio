@@ -1,7 +1,7 @@
 .project{
   min-width: 280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 2rem 0;
   border-radius: 5px;
 }
 .project-title{
@@ -29,12 +29,13 @@
 }
 .project-buttons-container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px 0 10px;
 }
 .project-button{
   cursor: pointer;
   font-size: 1.2rem;
+  margin: 0 30px;
 }
 .project-button span{
   margin-right: 10px;
@@ -45,5 +46,39 @@
 
 /* Responsive */
 @media screen and (max-width: 1024px){
-
+  .project{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px){
+  .project-title{
+    font-size: 1.2rem;
+  }
+  .project-description{
+    margin: 10px auto;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .project img{
+    width: 310px;
+  }
+  .project-button{
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px){
+  .project{
+    padding: 1rem 0;
+  }
+  .project-description{
+    padding: 0 8px;
+    width: 100%;
+  }
+  .project img{
+    width: 270px;
+  }
+  .project-button{
+    font-size: 0.9rem;
+    margin: 0 20px;
+  }
 }

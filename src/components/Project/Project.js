@@ -5,6 +5,7 @@ import './Project.css';
 export default props => {
   const {
     data,
+    metadata,
     openBasicModal
   } = props;
 
@@ -15,7 +16,7 @@ export default props => {
       <img
         src={ data.images[0] }
         alt={ `Main image of ${data.title}` }
-        width="500px"
+        width="350px"
       />
       <div className="project-buttons-container">
         <p
@@ -28,7 +29,7 @@ export default props => {
           ) }
         >
           <span className="icon-newspaper"/>
-          Images
+          { metadata.images }
         </p>
         <a
           className="project-button flex-container"
@@ -36,7 +37,7 @@ export default props => {
           href={ data.url }
         >
           <span className="icon-arrow-right"/>
-          Go to App
+          { metadata.link }
         </a>
       </div>
     </section>

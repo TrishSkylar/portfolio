@@ -8,19 +8,30 @@
     }
   },
   "/": {
+    "title": "Lorem ipsum text",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   "/work": {
+    "title": "My Projects",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     "projects": [
       {
         "title": "Project X",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "url": "https://chat-group-client-sn.herokuapp.com"
       },
       {
         "title": "Project X",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "url": "https://chat-group-client-sn.herokuapp.com"
       }
-    ]
+    ],
+    "metadata": {
+      "project": {
+        "images": "Imágenes",
+        "link": "Ir a la App"
+      }
+    }
   },
   "/contact": {
 

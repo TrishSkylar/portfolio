@@ -36,6 +36,7 @@ export default props => {
               openBasicModal={ openBasicModal }
               data={ project }
               key={ index }
+              metadata={ data.metadata.project }
             />
           ))
         }

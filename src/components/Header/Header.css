@@ -61,9 +61,10 @@
     top: 60px;
     left: -210px;
     flex-direction: column;
-    background: var(--third-dark);
+    background: var(--second-light);
     width: 210px;
     transition: all 0.8s;
+    z-index: 1000;
   }
   .showMenu{
     left: 0px;
