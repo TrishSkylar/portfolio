@@ -36,7 +36,6 @@ module.exports = merge(webpackCommon, {
   plugins: [
     new DefinePlugin({
       'process.env': {
-        APP_NAME: JSON.stringify(process.env.APP_NAME),
         SERVICE_ID: JSON.stringify(process.env.SERVICE_ID),
         TEMPLATE_ID: JSON.stringify(process.env.TEMPLATE_ID),
         USER_ID: JSON.stringify(process.env.USER_ID)
