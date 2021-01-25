@@ -15,7 +15,7 @@ export default props => {
       <p className="project-description">{ data.description }</p>
       <img
         src={ data.images[0] }
-        alt={ `Main image of ${data.title}` }
+        alt={ `${data.title}` }
         width="350px"
       />
       <div className="project-buttons-container">
