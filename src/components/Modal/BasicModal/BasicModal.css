@@ -1,7 +1,7 @@
 .basic-modal{
   top: 60px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   background: var(--second-light);
 }
 .close-basic-modal{

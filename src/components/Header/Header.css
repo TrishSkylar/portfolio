@@ -1,8 +1,12 @@
 /* Header */
 .header{
+  position: sticky;
+  z-index: 1000;
+  top: 0;
   width: 100%;
   height: 60px;
   padding: 0 5vw;
+  background: var(--second-light);
 }
 .header a,
 .header span{
@@ -30,7 +34,6 @@
   display: none;
 }
 
-
 /* Others (Right) */
 .translations-container,
 .translations-container span,
@@ -47,9 +50,6 @@
 /* Responsive */
 @media screen and (max-width: 768px){
   /* Header */
-  .header{
-    background: transparent;
-  }
   .header .icon-arrow-right{
     transition: all 0.5s;
     transform: rotate(180deg);
@@ -64,7 +64,6 @@
     background: var(--second-light);
     width: 210px;
     transition: all 0.8s;
-    z-index: 1000;
   }
   .showMenu{
     left: 0px;
