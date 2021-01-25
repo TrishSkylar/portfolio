@@ -6,9 +6,17 @@
 .image-slide{
   object-fit: cover;
   object-position: center;
-  height: 75vh;
+  height: 65vh;
   border-radius: 5px;
   box-shadow: 0 0 2px var(--main-light);
+  position: absolute;
+  opacity: 0;
+  z-index: -500;
+}
+.image-slide-active{
+  position: relative;
+  opacity: 1;
+  animation: 0.5s changeSlide ease-in;
 }
 .image-slider-controller{
   min-width: max-content;
@@ -35,6 +43,21 @@
   background: var(--main-light);
   color: var(--main-dark);
   border-radius: 50%;
+}
+
+/* Animations */
+@keyframes changeSlide{
+  0%{
+    left: 15px;
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  100%{
+    left: 0;
+    opacity: 1;
+  }
 }
 
 /* Responsive */

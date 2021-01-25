@@ -14,8 +14,6 @@ export default props => {
 
   const prevSlide = () => setCurrentSlide(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
 
-  const changeSlide = i => setCurrentSlide(i);
-
   useEffect(() => {
     setImageSrc(images[currentSlide]);
   }, [ currentSlide ]);
@@ -30,7 +28,7 @@ export default props => {
         {
           images.map((_, index) => (
             <span
-              onClick={ () => changeSlide(index) }
+              onClick={ () => setCurrentSlide(index) }
               key={ index }
               className={ `image-slider-number ${currentSlide === index && 'image-slider-controller-select'}` }
             >
@@ -43,11 +41,17 @@ export default props => {
           className="icon-arrow-right"
         />
       </div>
-      <img
-        className="image-slide flex-container"
-        src={ imageSrc }
-        alt={ `${identifier}` }
-      />
+      {
+        images.map((src, index) => (
+          <img
+            key={ index }
+            className={ `image-slide flex-container ${currentSlide === index && 'image-slide-active'}` }
+            src={ src }
+            alt={ `${identifier}` }
+            height="65vh"
+          />
+        ))
+      }
     </div>
   );
 }
