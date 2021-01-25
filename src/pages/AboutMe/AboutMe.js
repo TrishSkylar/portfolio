@@ -10,15 +10,6 @@ export default props => {
   const { data } = props;
   return (
     <main className="about-me flex-container">
-      <section className="about-me-description page flex-container">
-        <img
-          className="flex-container"
-          alt="Derry Nikolai Sucari Aduviri"
-          src={ Banner }
-          width="300px"
-        />
-        <p className="flex-container">{ data.information }</p>
-      </section>
       <section className="about-me-information page flex-container">
         {/* Tools */}
         <div className="tools-container flex-container">
@@ -48,6 +39,15 @@ export default props => {
               </p>
             ))
           }
+        </div>
+        <div className="about-me-description flex-container">
+          <img
+            className="flex-container"
+            alt="Derry Nikolai Sucari Aduviri"
+            src={ Banner }
+            width="300px"
+          />
+          <p className="flex-container">{ data.information }</p>
         </div>
 
         {/* Qualities */}

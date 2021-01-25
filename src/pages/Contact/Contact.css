@@ -20,7 +20,10 @@
   font-family: secondSource;
   margin: 20px auto;
 }
-
+.contact-information p a{
+  font-style: normal;
+  text-decoration: underline;
+}
 /* Responsive */
 @media screen and (max-width: 768px){
   .contact-information h1{

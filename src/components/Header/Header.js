@@ -9,7 +9,8 @@ export default props => {
     data,
     translate,
     ES,
-    EN
+    EN,
+    getLanguage
   } = props;
 
   const toggleMenu = e => {
@@ -68,14 +69,16 @@ export default props => {
       </nav>
       <div className="translations-container flex-container">
         <span
+          className={ `${getLanguage() === EN && 'active-translation'}` }
           onClick={ () => translate(EN) }
         >
-          en
+          En
         </span>
         <span
+          className={ `${getLanguage() === ES && 'active-translation'}` }
           onClick={ () => translate(ES) }
         >
-          es
+          Es
         </span>
       </div>
       <div className="social-networks-container flex-container">

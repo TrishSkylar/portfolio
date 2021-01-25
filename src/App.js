@@ -20,7 +20,15 @@ import {
 } from './utils/constants';
 
 export default () => {
-  const [ data, setData ] = useState(getLanguage() === EN ? en : es);
+  const [ data, setData ] = useState(() => {
+    const lng = getLanguage();
+    if(lng){
+      return lng === EN ? en : es
+    }else{
+      setLanguage(ES);
+      return es;
+    }
+  });
 
   const translate = language => {
     if(language === EN){
@@ -35,6 +43,7 @@ export default () => {
   return (
     <Routing
       translate={ translate }
+      getLanguage={ getLanguage }
       data={ data }
       EN={ EN }
       ES={ ES }

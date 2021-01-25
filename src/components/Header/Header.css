@@ -41,11 +41,16 @@
 .social-networks-container a{
   margin: 0 10px;
 }
-
+.active-translation,
 .translations-container span:hover,
 .social-networks-container a:hover{
   color: var(--third-light);
 }
+.active-translation,
+.translations-container span:hover{
+  text-shadow: 0px -1px 0.5rem var(--main-light);
+}
+
 
 /* Responsive */
 @media screen and (max-width: 768px){

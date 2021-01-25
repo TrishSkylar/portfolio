@@ -6,6 +6,7 @@ import BasicModal from '../../components/Modal/BasicModal';
 
 /* Images */
 import imagesOfTheProjects from '../../data/images/projects';
+import imageGithubProfile from '../../data/images/git/github';
 
 /* Styles */
 import './Work.css';
@@ -40,6 +41,14 @@ export default props => {
             />
           ))
         }
+        <div className="work-github-profile flex-container">
+          <h2>{ data.githubProfile.title }</h2>
+          <p>{ data.githubProfile.description }</p>
+          <img
+            src={ imageGithubProfile }
+            width="100%"
+          />
+        </div>
       </main>
       <BasicModal
         show={ showBasicModal }

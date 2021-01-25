@@ -8,22 +8,22 @@
     }
   },
   "/": {
-    "title": "Lorem ipsum text",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "title": "FRONT-END & BACK-END",
+    "description": "Mi nombre es Derry Sucari y soy un desarrollador"
   },
   "/work": {
     "title": "Mis Proyectos",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "description": "Estos son mis proyectos que están en producción, espero te agraden.",
     "projects": [
       {
-        "title": "Project X",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Chat Grupal",
+        "description": "La aplicación permite intercambiar mensajes rápidamente y gestionar salas de chat, el chat es un medio importante de comunicación, importante para la colaboración en equipo.",
         "url": "https://chat-group-client-sn.herokuapp.com"
       },
       {
-        "title": "Project X",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "url": "https://chat-group-client-sn.herokuapp.com"
+        "title": "Plantilla para una Landing Page",
+        "description": "Es una plantilla para una Landing Page, se comunica con una API mía para la gestión de Emails.",
+        "url": "https://event-management-r.herokuapp.com"
       }
     ],
     "metadata": {
@@ -31,11 +31,15 @@
         "images": "Imágenes",
         "link": "Ir a la App"
       }
+    },
+    "githubProfile": {
+      "title": "Actividad en Github",
+      "description": "Fecha de Captura 25 Ene. 2021"
     }
   },
   "/contact": {
     "title": "Ponerse en contacto",
-    "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "information": "Me encantaría saber de ti, puedes comunicarte conmigo con el formulario o mediante ",
     "form": {
       "names": {
         "label": "Nombres:",
@@ -57,7 +61,7 @@
     }
   },
   "/about-me": {
-    "information": "Lorem ipsum dolor sit  elit, sed do eiusmod tempor incididunt ut labore et dolore magna amet, consectetur, sed do eiusmod tempor incididunt ut labore magna aliqua Lorem ipsum dolor sit consectetur adipiscing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    "information": "Desarrollador creativo, apasionado por las nuevas tecnologías, encantado de investigar y utilizar el conocimiento para el desarrollo del mundo.",
     "languages": [
       "Javascript",
       "PHP",

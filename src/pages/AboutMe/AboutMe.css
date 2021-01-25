@@ -3,11 +3,10 @@
 }
 
 /* About me description */
-.about-me-description{
-  min-width: 768px;
+.about-me .about-me-description{
   width: 100%;
-  margin: auto;
-  flex-wrap: wrap;
+  margin: 2rem auto;
+  flex-direction: row;
 }
 .about-me-description img{
   object-fit: cover;
@@ -41,7 +40,6 @@
 .languages-container{
   display: flex;
   flex-wrap: wrap;
-  flex-wrap: wrap;
   justify-content: space-around;
   padding: 0 4rem;
 }
@@ -54,16 +52,19 @@
 .tools-container{
   display: flex;
   flex-wrap: wrap;
-  padding: 0 8rem;
+  padding: 0 9vw;
+  justify-content: space-around;
 }
 .tools-container p{
   margin: 1rem 0;
   text-align: center;
 }
-.tool-value{
-  width: 50%;
+.tools-container .tool-value{
+  margin: 1rem 2rem;
   font-size: 1.2rem;
   font-style: italic;
+  padding-bottom: 5px;
+  border-bottom: 2px solid var(--main-light);
 }
 .tools-title{
   width: 100%;
@@ -125,21 +126,25 @@
     content: '';
     margin: 0;
   }
+
+  /* Tools */
+  .tools-container .tool-value{
+    margin: 1rem 4rem;
+  }
 }
 
 @media screen and (max-width: 768px){
   /* About me description */
-  .about-me-description{
-    min-width: 100%;
+  .about-me .about-me-description{
     flex-direction: column;
   }
   .about-me-description img{
-    width: 240px;
+    width: 220px;
     padding: 0;
   }
   .about-me-description p{
     min-width: 270px;
-    width: 100%;
+    width: 100vw;
     padding: 0 3rem;
     font-size: 1.1rem;
     margin-top: 2rem;
@@ -148,35 +153,32 @@
 @media screen and (max-width: 580px){
 
   /* Tools */
-  .tools-title{
-    font-size: 1.2rem;
+  .tools-container{
+    padding: 0;
   }
   .tool-value{
     font-size: 1rem;
   }
 
   /* Core Skills */
-  .core-skills-title{
-    font-size: 1.2rem;
-  }
   .coreSkill-value{
     font-size: 1rem;
   }
-
-  /* Qualities */
-  .qualities-title{
-    font-size: 1.3rem;
-  }
 }
 @media screen and (max-width: 480px){
+  /* About me description */
+  .about-me-description img{
+    width: 180px;
+  }
+
   /* Languages */
   .languages-container p{
     font-size: 1.3rem;
   }
 
   /* Tools */
-  .tool-value{
-    width: 100%;
+  .tools-container{
+    flex-direction: column;
   }
 
   /* Qualities */

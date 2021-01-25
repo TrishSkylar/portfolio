@@ -17,7 +17,8 @@ export default props => {
     data,
     translate,
     ES,
-    EN
+    EN,
+    getLanguage
   } = props;
 
   return (
@@ -27,6 +28,7 @@ export default props => {
         translate={ translate }
         ES={ ES }
         EN={ EN }
+        getLanguage={ getLanguage }
       />
       <Switch>
         { routingConfiguration.map((route, index) => (

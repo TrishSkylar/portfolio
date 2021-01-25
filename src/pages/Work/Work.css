@@ -1,9 +1,9 @@
-.work{
+#root .work{
   min-width: 300px;
   flex-wrap: wrap;
   padding: 0 6vw;
   height: max-content;
-  align-content: center;
+  align-items: flex-end;
 }
 .work-information{
   width: 100%;
@@ -21,6 +21,28 @@
   margin: 20px auto;
   font-size: 1.2rem;
 }
+.work-github-profile{
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 0;
+}
+.work-github-profile h2{
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+.work-github-profile p{
+  font-size: 1.25rem;
+  margin: 20px 0;
+}
+.work-github-profile img{
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  max-width: 768px;
+  border-radius: 5px;
+}
 
 /* Responsive */
 @media screen and (max-width: 1024px){
@@ -33,6 +55,12 @@
     font-size: 1.4rem;
   }
   .work-information p{
+    font-size: 1rem;
+  }
+  .work-github-profile h2{
+    font-size: 1.4rem;
+  }
+  .work-github-profile p{
     font-size: 1rem;
   }
 }

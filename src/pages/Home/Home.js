@@ -12,7 +12,7 @@ export default props => {
       </section>
       <section className="right-home flex-container">
         <img
-          alt={ `${data.appName} banner` }
+          alt="Derry Nikolai Sucari Aduviri banner"
           src={ BannerImage }
           width="280"
           height="280"

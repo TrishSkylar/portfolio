@@ -12,7 +12,15 @@ export default props => {
     <main className="contact page flex-container">
       <section className="contact-information">
         <h1>{ data.title }</h1>
-        <p>{ data.information }</p>
+        <p>
+          { data.information }
+          <a
+            href="https://api.whatsapp.com/send?phone=51928518774&text=Hello"
+            target="_blank"
+          >
+            WhatsApp
+          </a>
+        </p>
       </section>
       <ContactForm
         data={ data.form }

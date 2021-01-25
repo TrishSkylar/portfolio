@@ -2,7 +2,6 @@
   min-width: 280px;
   margin: 0 auto;
   padding: 2rem 0;
-  border-radius: 5px;
 }
 .project-title{
   font-size: 1.4rem;
@@ -24,8 +23,6 @@
   object-position: center;
   object-fit: cover;
   margin: 20px auto;
-  border: 1px solid var(--main-light);
-  border-radius: 5px;
 }
 .project-buttons-container{
   display: flex;
