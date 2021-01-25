@@ -7,7 +7,9 @@ import './Header.css';
 export default props => {
   const {
     data,
-    translate
+    translate,
+    ES,
+    EN
   } = props;
 
   const toggleMenu = e => {
@@ -66,12 +68,12 @@ export default props => {
       </nav>
       <div className="translations-container flex-container">
         <span
-          onClick={ () => translate('en') }
+          onClick={ () => translate(EN) }
         >
           en
         </span>
         <span
-          onClick={ () => translate('es') }
+          onClick={ () => translate(ES) }
         >
           es
         </span>

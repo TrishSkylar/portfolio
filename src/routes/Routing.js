@@ -14,7 +14,9 @@ import Header from '../components/Header';
 export default props => {
   const {
     data,
-    translate
+    translate,
+    ES,
+    EN
   } = props;
 
   return (
@@ -22,6 +24,8 @@ export default props => {
       <Header
         data={ data.header }
         translate={ translate }
+        ES={ ES }
+        EN={ EN }
       />
       <Switch>
         { routingConfiguration.map((route, index) => (
