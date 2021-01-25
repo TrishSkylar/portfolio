@@ -48,10 +48,10 @@
 .contact-form-group .contact-form-label{
   width: 48%;
 }
-.contact-form-button{
+.contact-form-button-disabled{
   width: 80px;
+  height: 30px;
   margin-left: auto;
-  padding: 0.3rem 0;
   font-size: 1.1rem;
   font-style: italic;
   color: var(--main-light);
@@ -61,6 +61,75 @@
   border-radius: 4px;
   margin-top: 20px;
 }
+.contact-form-button-capable{
+  background: var(--successful);
+  cursor: pointer;
+}
+/* For inputs */
+.contact-form-label .contact-incorrect-input{
+  border-bottom: 2px solid var(--main-error);
+}
+.contact-form-label .contact-correct-input{
+  border-bottom: 2px solid var(--successful);
+}
+
+/* Spinner */
+.active-spinner{
+  width: 1rem;
+  height: 1rem;
+  display: inline-block;
+  border: 3px solid var(--main-dark);
+  border-radius: 50%;
+  border-top-color: var(--main-light);
+  margin: 1rem;
+  animation: 1s spin infinite ease-in-out;
+}
+
+/* Checkmark */
+.checkmark{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  stroke-width: 5;
+  stroke: var(--main-light);
+  stroke-miterlimit: 10;
+  animation: fill 0.1s ease-in-out 0.1s forwards, scale 0.1s ease-in-out 0.5s both;
+}
+
+.checkmark-check{
+  fill: none;
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.1s cubic-bezier(0.65, 0, 0.45, 1) 0.4s forwards;
+}
+
+/* Animations */
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes stroke{
+  100%{
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes scale{
+  0%, 100%{
+    transform: none;
+  }
+  50%{
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+@keyframes fill{
+  100%{
+    box-shadow: inset 0px 0px 0px 30px var(--main-widgets);
+  }
+}
+
 
 /* Responsive */
 @media screen and (max-width: 768px){

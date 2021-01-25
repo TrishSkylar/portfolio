@@ -15,7 +15,7 @@ export default props => {
         <p>
           { data.information }
           <a
-            href="https://api.whatsapp.com/send?phone=51928518774&text=Hello"
+            href="https://api.whatsapp.com/send?phone=51928518774&text=Hello%20Derry!!"
             target="_blank"
           >
             WhatsApp
