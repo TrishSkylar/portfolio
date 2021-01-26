@@ -163,6 +163,8 @@
   /* Core Skills */
   .coreSkill-value{
     font-size: 1rem;
+    text-align: center;
+    width: 100%;
   }
 }
 @media screen and (max-width: 480px){
