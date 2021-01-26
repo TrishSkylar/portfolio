@@ -26,6 +26,9 @@
   box-shadow: 0 0 2px var(--main-light);
   background: var(--main-dark);
 }
+.image-slider-controller .icon-arrow-right:nth-child(1){
+  transform: rotate(180deg);
+}
 .image-slider-number{
   font-weight: bold;
 }
