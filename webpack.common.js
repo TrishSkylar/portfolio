@@ -28,7 +28,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(gif|png|jpe?g|svg)$/i,
+        test: /\.(gif|png|jpe?g|svg|webp)$/i,
         use: [{
           loader: 'file-loader',
           options: {
@@ -39,7 +39,7 @@ module.exports = {
         }]
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf|webp)$/i,
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
         use: [{
           loader: 'file-loader',
           options: {
